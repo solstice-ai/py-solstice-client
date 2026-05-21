@@ -7,15 +7,15 @@ This repository contains client implementations to connect to Solstice AI servic
 **Table of Contents**
 
 1. [Lakeside](#lakeside)
-    1.1. [Authentication][#authentication]
-    1.2. [Pushing Live Data](#pushing-live-data)
-    1.3. [Retrieving Forecasts](#retrieving-forecasts)
+    1. [Authentication](#authentication)
+    2. [Pushing Live Data](#pushing-live-data)
+    3. [Retrieving Forecasts](#retrieving-forecasts)
 
 ## Lakeside
 
 ### Authentication
 
-To access Lakeside, you need an API key and the client ID provided to you, ideally these are read from an environment 
+To access Lakeside, you need an **API key** and the **client ID** provided to you, ideally these are read from an environment 
 file or requested from another service. Hard-coding credentials is discouraged. For the following example, we assume the
 following environment file `.env`:
 

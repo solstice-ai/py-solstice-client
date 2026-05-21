@@ -1,8 +1,15 @@
 # Solstice AI Client Library
 
 This repository contains client implementations to connect to Solstice AI services such as Lakeside.
+
 **System requirements**: 
 - Python 3.x
+
+**Installation**
+
+```bash
+pip3 install solsticeai
+```
 
 **Table of Contents**
 
